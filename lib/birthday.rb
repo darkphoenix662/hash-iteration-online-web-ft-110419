@@ -14,7 +14,7 @@ def age_approriate_birthday(birthday_kids)
   winner = ""
   birthday_kids.each do |name, age|
     if age <= 12 
-      puts "Happy birthday #{name}! You are now #{age} year old!"
+      puts "Happy birthday #{name}! You are now #{age} years old!"
       winner = name
     else 
       puts "You are too old for this."
